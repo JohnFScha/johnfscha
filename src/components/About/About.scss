@@ -1,0 +1,128 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .about__cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      width: 90%;
+      margin-right: auto;
+
+      .about__card {
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        transition: var(--transition);
+
+        &:hover {
+          background: transparent;
+          border-color: var(--color-primary-variant);
+          cursor: default;
+
+        }
+
+        .about__icon {
+          color: var(--color-primary);
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        h5 {
+          font-size: 0.95rem;
+        }
+
+        small {
+          font-size: 0.7rem;
+          color: var(--color-light);
+        }
+      }
+    }
+  }
+}
+
+section#about {
+
+  p {
+    margin: 2rem auto;
+    color: var(--color-light);
+    text-align: center;
+    width: 70%;
+  }
+
+  .btn {
+    display: block;
+    width: 20%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+}
+
+/* *************** MEDIA QUERIES (MEDIUM DEVICES) **************** */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+
+    .about__content {
+      width: 80%;
+      margin: auto;
+
+      p {
+        margin: 1rem 0 1.5rem;
+        width: 90%;
+      }
+
+      .about__me {
+        width: 100%;
+        margin: 2rem auto 4rem;
+      }
+
+      .about__cards {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+/* *************** MEDIA QUERIES (SMALL DEVICES) **************** */
+@media screen and (max-width: 600px) {
+  section#about {
+    .about__container {
+
+      .about__me {
+        width: 80%;
+        margin: 0 auto 3rem;
+      }
+
+      .about__content {
+        text-align: center;
+
+        .about__cards {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+          width: 100%;
+        }
+      }
+    }
+
+    p.about__content-description {
+      margin: 2rem auto;
+    }
+
+    .btn {
+      width: 35%;
+    }
+  }
+}
