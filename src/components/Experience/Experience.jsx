@@ -1,4 +1,5 @@
 import React from "react";
+import CubicSlider from '../CubicSlider/CubicSlider'
 import { BsFillPatchCheckFill as Check } from "react-icons/bs";
 import "./Experience.scss";
 
@@ -51,13 +52,13 @@ const Experience = () => {
               <Check className="detail-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Upper intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
         </div>
 
-        {/* END OF FRONTEND */}
+        <CubicSlider />
 
         <div className="experience-backend">
           <h3>Backend Development</h3>

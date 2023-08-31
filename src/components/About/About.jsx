@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.scss";
-import CubicSlider from "../CubicSlider/CubicSlider";
 import { FaBrain, FaGraduationCap } from "react-icons/fa";
 import { RiUserStarFill } from "react-icons/ri";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -12,7 +11,6 @@ const About = () => {
       <h2>About</h2>
 
       <div className="container about__container">
-        <CubicSlider />
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
