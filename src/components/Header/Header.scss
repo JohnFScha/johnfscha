@@ -1,10 +1,10 @@
 header {
-  height: 125vh;
+  height: 140vh;
   padding-top: 2.5rem;
   overflow: hidden;
 }
 
-.header__container {
+.header__container {  
   text-align: center;
   height: 100%;
   position: relative;
@@ -74,7 +74,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 16rem;
+  bottom: 18rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -83,14 +83,14 @@ header {
 /* **************** MEDIA QUERIES (MEDIUM DEVICES) **************** */
 @media only screen and (max-width: 1024px) {
   header {
-    height: 130vh !important;
+    height: 160vh !important;
 
     .header__socials {
-      bottom: 10rem;
+      bottom: 15rem;
     }
 
     .scroll__down {
-      bottom: 13rem;
+      bottom: 18rem;
     }
 
     .cta {
@@ -102,7 +102,7 @@ header {
 /* **************** MEDIA QUERIES (SMALL DEVICES) **************** */
 @media only screen and (max-width: 600px) {
   header {
-    height: 135vh !important;
+    height: 160vh !important;
 
     .header__socials,
     .scroll__down {

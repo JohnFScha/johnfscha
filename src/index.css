@@ -67,6 +67,10 @@ section {
   margin-top: 6rem;
 }
 
+section#about {
+  margin-top: 2rem;
+}
+
 section>h2,
 section>h5 {
   text-align: center;
@@ -135,7 +139,7 @@ img {
   }
 
   section#about {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 }
 
