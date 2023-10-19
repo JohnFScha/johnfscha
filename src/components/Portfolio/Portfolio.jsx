@@ -5,6 +5,8 @@ import img3 from '../../assets/portfolio3.png'
 import img4 from '../../assets/portfolio4.png'
 import img5 from '../../assets/portfolio5.png'
 import img6 from '../../assets/portfolio6.png'
+import img7 from '../../assets/portfolio7.png'
+
 
 import "./Portfolio.scss";
 
@@ -50,6 +52,13 @@ const data = [
     title: "Language Time Landing",
     github: "https://github.com/JohnFScha/EnglishTimeLandingPage",
     demo: "https://johnfscha.github.io/EnglishTimeLandingPage/index.html"
+  },
+  {
+    id: 7,
+    thumbnail: img7,
+    title: "Who's that pokemon?",
+    github: "https://github.com/JohnFScha/adivinar-pokemon-v2",
+    demo: "https://adivinar-pokemon-v2.vercel.app/"
   }
 ]
 
