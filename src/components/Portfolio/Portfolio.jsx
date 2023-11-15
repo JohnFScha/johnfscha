@@ -6,7 +6,9 @@ import img4 from '../../assets/portfolio4.png'
 import img5 from '../../assets/portfolio5.png'
 import img6 from '../../assets/portfolio6.png'
 import img7 from '../../assets/portfolio7.png'
-
+import img8 from '../../assets/age-calculator-app.png'
+import img9 from '../../assets/bookstore-app.png'
+import img10 from '../../assets/flexy-login.png'
 
 import "./Portfolio.scss";
 
@@ -59,6 +61,27 @@ const data = [
     title: "Who's that pokemon?",
     github: "https://github.com/JohnFScha/adivinar-pokemon-v2",
     demo: "https://adivinar-pokemon-v2.vercel.app/"
+  },
+  {
+    id: 8,
+    thumbnail: img8,
+    title: "Age calculator",
+    github: "https://github.com/JohnFScha/age-calculator-app",
+    demo: "https://adivinar-pokemon-v2.vercel.app/"
+  },
+  {
+    id: 9,
+    thumbnail: img9,
+    title: "Bookstore CRUD app",
+    github: "https://github.com/JohnFScha/bookstore-app-v2",
+    demo: "https://bookstore-app-v2.vercel.app/"
+  },
+  {
+    id: 10,
+    thumbnail: img10,
+    title: "Flexy login",
+    github: "https://github.com/JohnFScha/prueba-tecnica-flexy",
+    demo: "https://prueba-tecnica-flexy-five.vercel.app/"
   }
 ]
 
