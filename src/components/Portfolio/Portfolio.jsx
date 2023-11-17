@@ -7,7 +7,7 @@ import img5 from '../../assets/portfolio5.png'
 import img6 from '../../assets/portfolio6.png'
 import img7 from '../../assets/portfolio7.png'
 import img8 from '../../assets/age-calculator-app.png'
-import img9 from '../../assets/bookstore-app.png'
+import img9 from '../../assets/bookstore-app-v2.png'
 import img10 from '../../assets/flexy-login.png'
 
 import "./Portfolio.scss";
