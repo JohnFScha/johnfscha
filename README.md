@@ -10,8 +10,10 @@ I'm Francisco, a full-stack developer based in Argentina. My passion for coding 
 
 ## 🚀 Projects
 
-- [Project 1](link-to-repository): Brief description.
-- [Project 2](link-to-repository): Brief description.
+- [Marvel Character Search](https://github.com/JohnFScha/MarvelCharacterSearchApp): React-Vite app developed for [Leniolabs_](https://www.leniolabs.com/) Frontend Bootcamp.
+- [OneClickEnglish](https://github.com/JohnFScha/OneClickEnglish): Landing page for an international english academy, to browse their current offer.
+- [Who's that pokemon?!](https://github.com/JohnFScha/adivinar-pokemon-v2): Personal web app for nerdy know-it-alls hehe.
+- [Bookstore](https://github.com/JohnFScha/bookstore-app-v2): A simple CRUD app for storing my current library in MongoDB.
 
 ## 🌐 Find me around the web
 
