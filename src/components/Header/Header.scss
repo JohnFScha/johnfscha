@@ -1,10 +1,10 @@
 header {
-  height: 120vh;
+  height: 100vh;
   padding-top: 2.5rem;
   overflow: hidden;
 }
 
-.header__container {  
+.header__container {
   text-align: center;
   height: 100%;
   position: relative;
@@ -20,15 +20,15 @@ header {
   align-items: center;
 
   a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
     svg {
       font-size: 1.2rem;
     }
   }
-    
+
 }
 
 /* ****************** Socials ***************** */
@@ -108,7 +108,7 @@ header {
     .scroll__down {
       display: none;
     }
-  
+
     .cta {
       bottom: 9rem;
     }
