@@ -87,7 +87,7 @@ const data = [
   {
     id: 11,
     thumbnail: img11,
-    title: "Flexy login",
+    title: "Harrison Web Portfolio",
     github: "https://github.com/JohnFScha/harrison-web",
     demo: "https://agenciaharrison.com.ar/",
   },
