@@ -83,7 +83,7 @@ header {
 /* **************** MEDIA QUERIES (MEDIUM DEVICES) **************** */
 @media only screen and (max-width: 1024px) {
   header {
-    height: 135vh !important;
+    height: 135vh;
 
     .header__socials {
       bottom: 15rem;
@@ -111,7 +111,7 @@ header {
 /* **************** MEDIA QUERIES (SMALL DEVICES) **************** */
 @media only screen and (max-width: 600px) {
   header {
-    height: 140vh !important;
+    height: 110vh;
 
     .header__socials,
     .scroll__down {
