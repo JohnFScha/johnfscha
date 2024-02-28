@@ -60,7 +60,7 @@ const Testimonials = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        scrollbar={{draggable: true}}
+        scrollbar={{ draggable: true }}
       >
         {testimonials.map(({ id, avatar, name, review }) => (
           <SwiperSlide className="testimonial" key={id}>

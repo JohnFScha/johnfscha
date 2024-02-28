@@ -99,6 +99,15 @@ header {
   }
 }
 
+
+/* **************** MEDIA QUERIES (MEDIUM DEVICES) **************** */
+
+@media only screen and (max-width: 1366px) {
+  header {
+    height: 120vh;
+  }
+}
+
 /* **************** MEDIA QUERIES (SMALL DEVICES) **************** */
 @media only screen and (max-width: 600px) {
   header {
