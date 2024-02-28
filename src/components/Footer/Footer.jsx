@@ -1,16 +1,13 @@
 import React from "react";
 import "./Footer.scss";
-import {
-  AiOutlineTwitter,
-  AiOutlineInstagram,
-} from "react-icons/ai";
-import {FaLinkedinIn} from 'react-icons/fa'
+import { AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer id="footer">
       <a href="#home" className="footer__logo">
-        John.F
+        John F.
       </a>
 
       <ul className="permalinks">
