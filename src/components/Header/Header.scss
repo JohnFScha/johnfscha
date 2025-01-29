@@ -12,8 +12,10 @@ header {
 
 /* ****************** CTA ***************** */
 .cta {
-  position: relative;
-  bottom: 9rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -28,7 +30,6 @@ header {
       font-size: 1.2rem;
     }
   }
-
 }
 
 /* ****************** Socials ***************** */
