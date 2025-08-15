@@ -61,13 +61,16 @@ header {
   margin-top: 5rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1rem;
+  padding: 0;
 
   img {
-    position: relative;
-    bottom: 0;
-    height: 25rem;
-    filter: drop-shadow(16px -16px 20px var(--color-primary)) brightness(0.90);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    // filter: drop-shadow(16px -16px 20px var(--color-primary)) brightness(0.90);
+    object-fit: cover;
   }
 }
 
