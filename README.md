@@ -59,16 +59,6 @@ Full-stack developer based in Argentina 🇦🇷, passionate about building mode
 - **[Todo List with Drizzle](https://github.com/JohnFScha/todo-list-drizzle)** - Task management app using Drizzle ORM
 - **[Harrison Studio](https://github.com/JohnFScha/harrison-web-2)** - Professional landing page for Harrison Studio
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![Francisco's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JohnFScha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JohnFScha&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 ## 🌐 Connect With Me
 
 - 💼 [Portfolio](https://www.johnfscha.site/) - Check out my work
@@ -87,7 +77,5 @@ Apart from coding, I'm passionate about:
 <div align="center">
 
 💡 *"Always learning, always building"*
-
-![Visitor Count](https://profile-counter.glitch.me/JohnFScha/count.svg)
 
 </div>
