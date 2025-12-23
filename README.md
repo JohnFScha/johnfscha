@@ -74,7 +74,6 @@ Full-stack developer based in Argentina 🇦🇷, passionate about building mode
 
 - 💼 [Portfolio](https://www.johnfscha.site/) - Check out my work
 - 💬 [LinkedIn](https://www.linkedin.com/in/juan-francisco-schallibaum/) - Let's connect professionally
-- 🐦 [Twitter](https://twitter.com/JohnFScha) - Follow for tech updates and thoughts
 
 ## 📚 Beyond Code
 
